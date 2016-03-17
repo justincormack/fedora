@@ -1,3 +1,3 @@
 FROM fedora
 
-RUN dnf -y update && dnf install -y iputils
+RUN dnf -y update && dnf install -y iputils which
